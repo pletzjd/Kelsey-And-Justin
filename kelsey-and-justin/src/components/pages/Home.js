@@ -3,7 +3,7 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
-      <img className='banner' src='' height='' width='' alt=''></img>
+      <img className='banner' src='' height='' width='' alt='Banner_Image'></img>
       
       <div>
         <h1>Justing Wittiveen</h1>
