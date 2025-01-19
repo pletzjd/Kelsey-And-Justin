@@ -1,0 +1,60 @@
+:root{
+    --primary-color: #bfcecb;
+    --secondary-color: #285b53;
+}
+
+/*General*/
+body{
+    background: var(--primary-color);
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.main-content{
+    height: calc(100vh - 9rem);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Nav*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 9rem;
+    gap: 3rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 960px;
+    min-width: fit-content;
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    border-bottom: black solid 0.2rem;
+}
+
+.active{
+    border-bottom: black solid 0.2rem;
+}
+
+/*Home*/
+.banner{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 100% 32%;
+}

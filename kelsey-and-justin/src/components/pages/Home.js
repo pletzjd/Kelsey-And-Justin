@@ -1,9 +1,10 @@
 import React from 'react';
+import Banner from '../../images/banner_photo.jpg'
 
 export default function Home() {
   return (
-    <div>
-      <img className='banner' src='' height='' width='' alt='Banner_Image'></img>
+    <div className='main-content'>
+      <img className='banner' src={Banner} height='300px' width='100%' alt='Banner_Image'></img>
       
       <div>
         <h1>Justing Wittiveen</h1>

@@ -36,7 +36,7 @@ export default function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='container'>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
