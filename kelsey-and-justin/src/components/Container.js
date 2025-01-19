@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import Schedule from './pages/Schedule';
@@ -10,6 +10,11 @@ import RSVP from './pages/RSVP';
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState('Home');
+  useEffect(() => {
+    if(document.location.hash){
+      setCurrentPage(document.location.hash[1].toUpperCase() + document.location.hash.substring(2))
+    }
+  },[])
 
   const renderPage = () => {
     if (currentPage === 'Home') {
