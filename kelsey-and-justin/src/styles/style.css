@@ -75,7 +75,7 @@ a{
     gap:2rem;
 }
 
-.button-rsvp{
+.button{
     max-width: 400px;
     min-width: fit-content;
     width: 30%;
@@ -100,7 +100,7 @@ a{
     padding:1rem;
 }
 /*Scehdule*/
-.schedule-opener{
+.opener{
     margin-top:4rem;
     margin-bottom:4rem;
 }
