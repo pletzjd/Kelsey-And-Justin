@@ -19,13 +19,13 @@ export default function Home() {
       
       <a className='button-rsvp' href='https://docs.google.com/forms/d/e/1FAIpQLSdZZSj9-vOVF1jV1a5XaP_NZSkc_jsW6pdjcragm1vwlTALUA/viewform?vc=0&c=0&w=1&flr=0'>RSVP</a>
       
-      <div className='story-card'>
+      <div className='card'>
         <h2>How We Meet</h2>
         <h4>Placeholder Date</h4>
         <p>Coming Soon!</p>
       </div>
 
-      <div className='story-card'>
+      <div className='card'>
         <h2>The Proposal</h2>
         <h4>Placeholder Date</h4>
         <p>Coming Soon!</p>
