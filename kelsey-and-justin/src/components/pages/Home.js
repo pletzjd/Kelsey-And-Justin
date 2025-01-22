@@ -17,7 +17,7 @@ export default function Home() {
         <h4>Ottawa, ON</h4>
       </div>
       
-      <a className='button-rsvp' href='https://docs.google.com/forms/d/e/1FAIpQLSdZZSj9-vOVF1jV1a5XaP_NZSkc_jsW6pdjcragm1vwlTALUA/viewform?vc=0&c=0&w=1&flr=0'>RSVP</a>
+      <a className='button' href='https://docs.google.com/forms/d/e/1FAIpQLSdZZSj9-vOVF1jV1a5XaP_NZSkc_jsW6pdjcragm1vwlTALUA/viewform?vc=0&c=0&w=1&flr=0'>RSVP</a>
       
       <div className='card'>
         <h2>How We Meet</h2>

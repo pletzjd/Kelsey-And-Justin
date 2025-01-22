@@ -108,3 +108,18 @@ a{
 .location-address-link{
     text-decoration: underline;
 }
+/*Gallery*/
+.gallery-content{
+    min-height: calc(100vh - 9rem);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:2rem;
+}
+.gal-image{
+    height: 15rem;
+    width: 15rem;
+    border-radius:10px;
+    border:2px solid var(--secondary-color);
+    object-fit: cover;
+}
