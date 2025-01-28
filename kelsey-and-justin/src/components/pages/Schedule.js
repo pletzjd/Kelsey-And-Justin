@@ -3,7 +3,7 @@ import React from 'react';
 export default function Schedule() {
   return (
     <div className='main-content'>
-      <h3 className='opener'>Here's what to expect for our wedding day. We can't wait to celebrate with you!</h3>
+      <h3 className='opener fancy fancy-symbols'>Here's what to expect for our wedding day. We can't wait to celebrate with you!</h3>
 
       <div className='card'>
         <img src='' height='' width='' alt='event_icon'></img>

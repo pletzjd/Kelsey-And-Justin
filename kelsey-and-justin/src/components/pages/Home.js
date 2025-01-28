@@ -7,9 +7,9 @@ export default function Home() {
       <img className='banner' src={Banner} height='300px' width='100%' alt='Banner_Image'></img>
       
       <div className='full-name-container'>
-        <h1>Justing Wittiveen</h1>
-        <h5>and</h5>
-        <h1>Kelsey Pletzer</h1>
+        <h1 className='fancy fancy-names'>Justin Wittiveen</h1>
+        <h5 className='fancy fancy-symbols'>&</h5>
+        <h1 className='fancy fancy-names'>Kelsey Pletzer</h1>
       </div>
       
       <div className='date-container'>
