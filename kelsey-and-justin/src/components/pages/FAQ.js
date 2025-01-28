@@ -3,7 +3,7 @@ import React from 'react';
 export default function FAQ() {
   return (
     <div className='main-content'>
-      <h3 className='opener'>If you have any questions that are not address here feel free to reach out to us via email or text</h3>
+      <h3 className='opener fancy fancy-symbols'>If you have any questions that are not address here feel free to reach out to us via email or text</h3>
 
       <div className='card'>
         <h1>DO YOU GUYS HAVE A GIFT REGISTRY?</h1>

@@ -57,6 +57,7 @@ import gallerySmall18 from '../../images/gallery-images/small/KJ110.jpg'
 export default function Gallery() {
   return (
     <div className='gallery-content'>
+      <div className='gallery-container'>
       <img className='gal-image' src={gallerySmall01} alt='Standing together in green dress and black suit on a wet wooden terrace'></img>
       <img className='gal-image' src={gallerySmall02} alt='Standing together in an embrace in green dress and black suit on a wet wooden terrace'></img>
       <img className='gal-image' src={gallerySmall03} alt='Standing together looking off in the distance in green dress and black suit on a wet wooden terrace'></img>
@@ -75,6 +76,7 @@ export default function Gallery() {
       <img className='gal-image' src={gallerySmall16} alt='Standing together in an embrace in green dress and black suit on a wet wooden terrace'></img>
       <img className='gal-image' src={gallerySmall17} alt='Standing together in an embrace in green dress and black suit on a wet wooden terrace'></img>
       <img className='gal-image' src={gallerySmall18} alt='Standing together in an embrace in green dress and black suit on a wet wooden terrace'></img>
+      </div>
     </div>
   );
 }

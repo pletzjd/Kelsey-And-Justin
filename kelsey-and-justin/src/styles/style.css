@@ -14,14 +14,13 @@ body{
     font-style: normal;
   }
 
-  .fancy-names{
+.fancy-names{
     font-size: 4rem;
   }
 
-  .fancy-symbols{
+.fancy-symbols{
     font-size: 2rem;
   }
-  
 
 .container{
     min-height: 100vh;
@@ -32,6 +31,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top:4rem;
 }
 
 /*Nav*/
@@ -46,10 +46,10 @@ header{
 
 .nav{
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    justify-content: center;
+    gap: 2.5rem;
     max-width: 960px;
-    min-width: fit-content;
+    min-width: 680px;
     width: 50%;
 }
 
@@ -99,7 +99,8 @@ a{
     border-radius: 10px;
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     color: var(--primary-color);
     text-align: center;
     align-content: center;
@@ -113,11 +114,22 @@ a{
     border:2px solid var(--secondary-color);
     border-radius:10px;
     padding:1rem;
+    max-width: 960px;
+    min-width: 680px;
+    width: 50%;
+}
+
+.card-description{
+    width: 80%;
+    line-height: 1.1rem;
 }
 /*Scehdule*/
 .opener{
-    margin-top:4rem;
     margin-bottom:4rem;
+    max-width: 960px;
+    min-width: 680px;
+    width: 50%;
+    text-align: center;
 }
 
 .location-address-link{
@@ -128,9 +140,22 @@ a{
     min-height: calc(100vh - 9rem);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap:2rem;
+    max-width: 1200px;
+    min-width: 680px;
+    width: 75%;
 }
+
 .gal-image{
     height: 15rem;
     width: 15rem;
@@ -138,3 +163,12 @@ a{
     border:2px solid var(--secondary-color);
     object-fit: cover;
 }
+
+/*RSVP*/
+.rsvp-content{
+    justify-content: center;
+    padding-top:0;
+}
+
+/*Mobile 
+note: switch to mobile view at below 700px*/
