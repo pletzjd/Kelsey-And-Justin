@@ -8,7 +8,7 @@ import FAQ from './pages/FAQ';
 import ToDo from './pages/ToDo';
 import RSVP from './pages/RSVP';
 
-export default function Container() {
+export default function Container({imgData}) {
   const [currentPage, setCurrentPage] = useState('Home');
   useEffect(() => {
     if(document.location.hash){
@@ -27,7 +27,7 @@ export default function Container() {
       return <Travel />;
     }
     if (currentPage === 'Gallery'){
-      return <Gallery />
+      return <Gallery imgData={imgData}/>
     }
     if (currentPage === 'FAQ'){
       return <FAQ />
