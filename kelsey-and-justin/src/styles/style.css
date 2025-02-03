@@ -104,12 +104,12 @@ a{
     border-radius: 10px;
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+
     color: var(--primary-color);
     text-align: center;
     align-content: center;
 }
+
 .card{
     margin-bottom: 5rem;
     display: flex;
@@ -127,6 +127,10 @@ a{
 .card-description{
     width: 80%;
     line-height: 1.1rem;
+}
+
+.rsvp-home{
+    margin-bottom:2rem;
 }
 /*Scehdule*/
 .opener{

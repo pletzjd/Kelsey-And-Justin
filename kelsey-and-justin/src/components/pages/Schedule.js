@@ -10,7 +10,7 @@ export default function Schedule() {
         <h2>Event Name</h2>
         <h4>X:XX am/pm - X:XX am/pm</h4>
         <h4>building name</h4>
-        <h4><a className='location-address-link' href=''>address</a></h4>
+        <h4><a className='location-address-link' href='' target='_blank'>address</a></h4>
         <p>brief description of event</p>
       </div>
     </div>
