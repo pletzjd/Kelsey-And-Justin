@@ -22,7 +22,7 @@ export default function Home() {
       
       <div className='card'>
         <img className='plant' src={Plant} width='150px' height='150px'></img>
-        <h1 className='fancy fancy-names'>How We Meet</h1>
+        <h1 className='fancy fancy-names'>How We Met</h1>
         <h4>25.10.07</h4>
         <p>It was the Fall of 2007 when we first met on campus at the Nipissing University and Canadore College residence. We were introduced to each other by a mutual friend and Justin created a memorable first impression with the biggest bear hug Kelsey had ever experienced.</p>
         <p>We chatted for a little bit and Kelsey asked Justin if he would like to join her and her group of friends who were headed over to the on-campus pub for Halloween. With a little encouragement from his roommates, Justin decided to venture out and eventually found Kelsey amongst the crowd. They danced the night away and found an instant connection. Eventually Kelsey needed to find her friend since she was responsible for getting her home but she was no where to be found. Ever the gentleman, Justin escorted Kelsey back to residence to ensure she was safe and helped her track down her lost friend</p>
