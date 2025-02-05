@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function ToDo() {
   return (
-    <div>
-      <h1>ToDo</h1>
+    <div className='main-content'>
+      We're still working on this one! Check back soon for updates.
     </div>
   );
 }

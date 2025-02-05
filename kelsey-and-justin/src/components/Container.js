@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
-import Schedule from './pages/Schedule';
+import Timeline from './pages/Timeline';
 import Travel from './pages/Travel';
 import Gallery from './pages/Gallery';
 import FAQ from './pages/FAQ';
@@ -20,8 +20,8 @@ export default function Container({imgData}) {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'Schedule') {
-      return <Schedule />;
+    if (currentPage === 'Timeline') {
+      return <Timeline />;
     }
     if (currentPage === 'Travel') {
       return <Travel />;
