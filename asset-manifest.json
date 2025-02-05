@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.89dcfd98.css",
-    "main.js": "/static/js/main.474d9117.js",
+    "main.js": "/static/js/main.14cdde86.js",
     "static/media/KJ004.jpg": "/static/media/KJ004.64af641d0b72b2ac7c49.jpg",
     "static/media/KJ109.jpg": "/static/media/KJ109.8a9337ddf62858afdeb7.jpg",
     "static/media/KJ048.jpg": "/static/media/KJ048.792da8d0963cd48af528.jpg",
@@ -25,10 +25,10 @@
     "static/media/Wedding_Hotel_Block_Information.PDF": "/static/media/Wedding_Hotel_Block_Information.06fed76314fb63f09a2b.PDF",
     "index.html": "/index.html",
     "main.89dcfd98.css.map": "/static/css/main.89dcfd98.css.map",
-    "main.474d9117.js.map": "/static/js/main.474d9117.js.map"
+    "main.14cdde86.js.map": "/static/js/main.14cdde86.js.map"
   },
   "entrypoints": [
     "static/css/main.89dcfd98.css",
-    "static/js/main.474d9117.js"
+    "static/js/main.14cdde86.js"
   ]
 }
