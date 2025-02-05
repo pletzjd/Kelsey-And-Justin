@@ -73,7 +73,6 @@
 /*General*/
 
 *{
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     line-height: 2;
 }
 
@@ -139,11 +138,6 @@ a{
     border-bottom: black solid 0.2rem;
 }
 
-.book-link{
-  text-decoration: underline;
-  color: blue
-}
-
 .skew{
   transform:skew(-15deg)
 }
@@ -185,7 +179,6 @@ a{
     border-radius: 10px;
     padding-left: 2rem;
     padding-right: 2rem;
-
     color: var(--primary-color);
     text-align: center;
     align-content: center;
