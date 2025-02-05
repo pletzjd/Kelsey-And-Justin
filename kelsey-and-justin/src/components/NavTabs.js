@@ -3,7 +3,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header>
-      <h1 className='nav-header fancy fancy-names'>KELSEY & JUSTIN</h1>
+      <h1 className='nav-header fancy fancy-names fancy-names-nav'>KELSEY & JUSTIN</h1>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a

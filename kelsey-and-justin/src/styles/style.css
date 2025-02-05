@@ -188,6 +188,11 @@ body{
     margin-bottom:20px;
   }
 
+.fancy-names-nav{
+  margin-top:20px;
+  margin-bottom:-2rem;
+}
+
 .fancy-symbols{
     font-size: 3rem;
   }
@@ -211,7 +216,7 @@ header{
     align-items: center;
     flex-direction: column;
     height: 9rem;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .nav{
