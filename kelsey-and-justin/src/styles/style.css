@@ -199,7 +199,7 @@ a{
     border-radius:10px;
     padding:1rem;
     max-width: 960px;
-    min-width: 320px;
+    min-width: 680 px;
     width: 50%;
     position:relative;
 }
@@ -209,7 +209,7 @@ a{
   top:75px;
 }
 
-.card > :is(h1, h3, h4, img, a) {
+.card > :is(h1, h3, h4, img, a, .address-wrapper) {
     align-self: center;
     text-align: center;
 }

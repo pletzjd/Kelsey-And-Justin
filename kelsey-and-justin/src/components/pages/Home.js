@@ -30,6 +30,7 @@ export default function Home() {
       </div>
 
       <div className='card'>
+        <img className='plant' src={Plant} width='150px' height='150px'></img>
         <h1 className='fancy fancy-names'>The Proposal</h1>
         <h4>01.10.23</h4>
         <p>Picture it, Santorini at sunset. The perfect place to propose. Justin and Kelsey were about half way through their island hopping adventure through the Cyclades in Greece. As a special treat, they booked a stay in a beautiful cave hotel overlooking the caldera, white washed homes and of course, a great private view of the sunset! </p>
