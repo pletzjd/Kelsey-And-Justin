@@ -31,12 +31,16 @@ export default function FAQ() {
       </div>
 
       <div className='card'>
+        <h1 className='skew'>Whats the bar situation?</h1>
+        <h2>Cash bar. There will be wine, beer, coolers, cocktails, juice and soft drinks available for purchase</h2>
+      </div>
+
+      <div className='card'>
         <h1 className='skew'>Is there parking available at the venue?</h1>
         <h2>Yes the Museum has enough paid parking for all guests, standard rates are as follows:</h2>
         <h2>Evening Flat Rate (from 4:30PM to 4:30AM): $5.00</h2>
         <h2>Looking to park overnight? No problem! Just note the standard rate after 4:30 in the morning will be $3.00/half hour up to a max of $14.00</h2>
         <h2>We encourage everyone to be safe so please make sure you take a taxi, Uber or Lyft if you are drinking. Most hotels are also within a 15 minute walk of the Museum.</h2>
-
       </div>
     </div>
   );
