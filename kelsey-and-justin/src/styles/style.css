@@ -119,7 +119,8 @@ header{
 .nav{
     display: flex;
     justify-content: center;
-    gap: 2.5rem;
+    flex-wrap: wrap;
+    column-gap: 2.5rem;
     max-width: 960px;
     min-width: 320px;
     width: 50%;
@@ -150,6 +151,7 @@ a{
     width: 100%;
     height: calc(100vh - 9rem);
     object-fit:cover;
+    object-position:70%;
 }
 .full-name-container{
     display: flex;
@@ -176,6 +178,7 @@ a{
 .button{
     max-width: 400px;
     min-width: fit-content;
+    min-width: 250px;
     width: 30%;
     height: 4rem;
     background-color: var(--secondary-color);
@@ -197,7 +200,7 @@ a{
     gap:1rem;
     border:2px solid var(--secondary-color);
     border-radius:10px;
-    padding:1rem;
+    padding:2rem;
     max-width: 960px;
     min-width: 680px;
     width: 50%;
@@ -338,3 +341,34 @@ a{
   }
 /*Mobile 
 note: switch to mobile view at below 700px*/
+@media only screen and (max-width: 700px){
+  .fancy-names{
+    font-size:2rem;
+  }
+  .fancy-symbols{
+    font-size: 1.5rem;
+  }
+  .card, .rsvp-image, .opener{
+    width: 90%;
+    min-width: 310px;
+  }
+  .plant{
+    top:45px;
+    width: 100px;
+    height: 100px;
+  }
+  .date{
+    font-size: 1.2rem;
+  }
+  .date-location{
+    font-size: 0.9rem;
+  }
+  .skew{
+    transform:skew(0deg);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .rsvp-opener{
+    margin-top:1rem;
+  }
+}
