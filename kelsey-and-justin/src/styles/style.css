@@ -222,7 +222,7 @@ a{
 
 .plant{
   position:absolute;
-  top:75px;
+  top:90px;
 }
 
 .card > :is(h1, h3, h4, img, a, .address-wrapper) {
@@ -353,7 +353,7 @@ note: switch to mobile view at below 700px*/
     min-width: 310px;
   }
   .plant{
-    top:45px;
+    top:60px;
     width: 100px;
     height: 100px;
   }

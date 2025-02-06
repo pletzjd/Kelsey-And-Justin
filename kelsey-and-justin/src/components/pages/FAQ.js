@@ -32,7 +32,7 @@ export default function FAQ() {
 
       <div className='card'>
         <h1 className='skew'>Whats the bar situation?</h1>
-        <h2>Cash bar. There will be wine, beer, coolers, cocktails, juice and soft drinks available for purchase</h2>
+        <h2>Cash bar. There will be wine, beer, coolers, cocktails, juice and soft drinks available for purchase. The caterer accepts cash, debit and credit.</h2>
       </div>
 
       <div className='card'>
