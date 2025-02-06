@@ -199,9 +199,19 @@ a{
     border-radius:10px;
     padding:1rem;
     max-width: 960px;
-    min-width: 680 px;
+    min-width: 680px;
     width: 50%;
     position:relative;
+}
+
+.rsvp-image{
+  object-fit: cover;
+  max-width: 960px;
+  min-width: 680px;
+  width: 50%;
+  margin-top:6rem;
+  height: 30rem;
+  object-position: bottom;
 }
 
 .plant{
@@ -266,9 +276,8 @@ a{
 }
 
 /*RSVP*/
-.rsvp-content{
-    justify-content: center;
-    padding-top:0;
+.rsvp-opener{
+    margin-top:20vh;
 }
 
 /*Modal*/

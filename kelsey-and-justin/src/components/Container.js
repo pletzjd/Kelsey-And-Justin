@@ -35,7 +35,7 @@ export default function Container({imgData}) {
     if (currentPage === 'ToDo'){
       return <ToDo />
     }
-    return <RSVP />;
+    return <RSVP imgData={imgData}/>;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
