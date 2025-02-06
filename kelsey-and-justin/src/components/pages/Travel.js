@@ -8,7 +8,7 @@ export default function Travel() {
     <div className='main-content'>
       <h3 className='opener fancy fancy-symbols'>For our guests coming from out of town</h3>
 
-      <div className='card'>
+      <div className='card hotel'>
         <img src={hotel} height='64px' width='64px' alt='Hotel_Icon'></img>
         <h3>Hotel</h3>
         <h1>Lord Elgin Hotel</h1>
@@ -19,6 +19,21 @@ export default function Travel() {
         <p className='card-description'>We've reserved a block of rooms for our guests for Friday April, 25 and/or Saturday April 26. The hotel is a 5 minute drive or 15 minute walk from the venue. </p>
         <p>Use Block Code: 5168033 </p>
         <a className='button second-button' href='https://reservations.travelclick.com/12200?groupID=4448994'>Book</a>
+        <p><b>Parking</b></p>
+        <p>Valet Parking with 24h in and out privileges</p>
+        <p>$39.00/night + HST</p>
+        <p><b>For any issues, questions and dates outside of the block:</b></p>
+        <p>Email: groups@lordelgin.ca</p>
+        <p>Phone: 613-235-3333 x 0</p>
+        <p><b>Check In: 3PM</b></p>
+        <p><b>Check Out: 12PM</b></p>
+        <p>Early check in cannot be guaranteed but the hotel will do their best to accommodate. If early check-in is not available, the hotel offers luggage check and access to fitness facility changing rooms or boardrooms with a
+        full bathroom.</p>
+        <p><b>Cancellation</b></p>
+        <p>Reservations can be cancelled 7 days prior to arrival without penalty.</p>
+        <p><b>Release Date:</b> The block is being held until March 25th 2025</p>
+        
+
         <p>Don't worry if you aren't able to snag one. There are many others in the area as well.</p>
         
       </div>

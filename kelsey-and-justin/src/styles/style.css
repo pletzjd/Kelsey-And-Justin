@@ -203,6 +203,9 @@ a{
     width: 50%;
     position:relative;
 }
+.hotel b{
+  font-weight: 600;
+}
 
 .rsvp-image{
   object-fit: cover;
