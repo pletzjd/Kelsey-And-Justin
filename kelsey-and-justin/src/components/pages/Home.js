@@ -35,7 +35,7 @@ export default function Home() {
         <h4>01.10.23</h4>
         <p>Picture it, Santorini at sunset. The perfect place to propose. Justin and Kelsey were about half way through their island hopping adventure through the Cyclades in Greece. As a special treat, they booked a stay in a beautiful cave hotel overlooking the caldera, white washed homes and of course, a great private view of the sunset! </p>
         <p>After a perfect day of exploring the island, they set up on their balcony to watch the famous Santorini sunset. They had visited a vineyard the day before and figured what better place and time to enjoy some of Santorini's finest.</p>
-        <p>Just as the sun was beginning to set and the ski filled with the most spectacular colours, Justin got down on one knee and asked Kelsey if she wouldn't mind letting him spend the rest of his life making her as happy as she has made him. He cried, she cried and of course said "YES!"</p>
+        <p>Just as the sun was beginning to set and the sky filled with the most spectacular colours, Justin got down on one knee and asked Kelsey if she wouldn't mind letting him spend the rest of his life making her as happy as she has made him. He cried, she cried and of course said "YES!"</p>
       </div>
 
       <img></img>
