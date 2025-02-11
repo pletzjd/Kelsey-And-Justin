@@ -7,7 +7,7 @@ export default function FAQ() {
 
       <div className='card'>
         <h1 className='skew'>Is there a dress code?</h1>
-        <h2>While there is no formal dress code, we'd say air on the side of business casual/cocktail/semi-formal attire. Be comfortable, but please no jeans or sneakers.</h2>
+        <h2>While there is no formal dress code, we'd say err on the side of business casual/cocktail/semi-formal attire. Be comfortable, but please no jeans or sneakers.</h2>
       </div>
 
       <div className='card'>
