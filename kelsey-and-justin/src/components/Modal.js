@@ -2,7 +2,9 @@ const Modal = ({
     clickedImg,
     setClickedImg,
     handelRotationRight,
-    handelRotationLeft
+    handelRotationLeft,
+    imgData,
+    currentIndex
   }) => {
     const handleClick = (e) => {
       if (e.target.classList.contains("dismiss")) {
@@ -29,7 +31,10 @@ const Modal = ({
               </svg>
             </div>
           </div>
-          <img src={clickedImg} alt="bigger pic" />
+          <img
+           src={clickedImg} 
+           alt={imgData[currentIndex].text}
+           srcSet={imgData[currentIndex].imgLarge + ' 1100w, ' + imgData[currentIndex].imgMedium + ' 800w, ' + imgData[currentIndex].imgSmall + ' 400w'} />
           <span className="dismiss" onClick={handleClick}>
             X
           </span>

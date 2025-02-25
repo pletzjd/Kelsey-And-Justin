@@ -8,14 +8,14 @@ export default function Gallery({imgData}) {
 
   const handleClick = (item, index) => {
     setCurrentIndex(index);
-    setClickedImg(item.imgSmall);
+    setClickedImg(item.imgLarge);
   };
 
   const handelRotationRight = () => {
   const totalLength = imgData.length;
   if (currentIndex + 1 >= totalLength) {
     setCurrentIndex(0);
-    const newUrl = imgData[0].imgSmall;
+    const newUrl = imgData[0].imgLarge;
     setClickedImg(newUrl);
     return;
   }
@@ -23,7 +23,7 @@ export default function Gallery({imgData}) {
   const newUrl = imgData.filter((item) => {
     return imgData.indexOf(item) === newIndex;
   });
-  const newItem = newUrl[0].imgSmall;
+  const newItem = newUrl[0].imgLarge;
   setClickedImg(newItem);
   setCurrentIndex(newIndex);
 };
@@ -32,7 +32,7 @@ const handelRotationLeft = () => {
   const totalLength = imgData.length;
   if (currentIndex === 0) {
     setCurrentIndex(totalLength - 1);
-    const newUrl = imgData[totalLength - 1].imgSmall;
+    const newUrl = imgData[totalLength - 1].imgLarge;
     setClickedImg(newUrl);
     return;
   }
@@ -40,7 +40,7 @@ const handelRotationLeft = () => {
   const newUrl = imgData.filter((item) => {
     return imgData.indexOf(item) === newIndex;
   });
-  const newItem = newUrl[0].imgSmall;
+  const newItem = newUrl[0].imgLarge;
   setClickedImg(newItem);
   setCurrentIndex(newIndex);
 };
@@ -49,7 +49,7 @@ const handelRotationLeft = () => {
     <div className='gallery-content'>
       <div className='gallery-container'>
         {imgData.map((item, index) => (
-          <img src={item.imgSmall} alt={item.text} className='gal-image' key={index} onClick={() => handleClick(item, index)}></img>
+          <img src={item.imgLarge} alt={item.text} className='gal-image' key={index} onClick={() => handleClick(item, index)}></img>
         ))}
       </div>
 
@@ -59,6 +59,9 @@ const handelRotationLeft = () => {
             handelRotationRight={handelRotationRight}
             setClickedImg={setClickedImg}
             handelRotationLeft={handelRotationLeft}
+            imgData={imgData}
+            currentIndex={currentIndex}
+            setCurrentIndex={setCurrentIndex}
           />
         )}
     </div>

@@ -41,7 +41,7 @@ import gallerySmall12 from './images/gallery-images/small/KJ070.jpg';
 import galleryLarge13 from './images/gallery-images/large/KJ073.jpg';
 import galleryMedium13 from './images/gallery-images/medium/KJ073.jpg';
 import gallerySmall13 from './images/gallery-images/small/KJ073.jpg';
-import galleryLarge14 from './images/gallery-images/large/KJ073.jpg';
+import galleryLarge14 from './images/gallery-images/large/KJ084.jpg';
 import galleryMedium14 from './images/gallery-images/medium/KJ084.jpg';
 import gallerySmall14 from './images/gallery-images/small/KJ084.jpg';
 import galleryLarge15 from './images/gallery-images/large/KJ085.jpg';
@@ -60,11 +60,11 @@ import gallerySmall18 from './images/gallery-images/small/KJ110.jpg';
 const App = () => {
     
     const imgData = [
-        {
-          text:"alt description",
-          imgSmall: gallerySmall01,
-          imgMedium: galleryMedium01,
-          imgLarge: galleryLarge01 
+      {
+        text:"alt description",
+        imgSmall: gallerySmall01,
+        imgMedium: galleryMedium01,
+        imgLarge: galleryLarge01 
       },
       {
         text:"alt description",
