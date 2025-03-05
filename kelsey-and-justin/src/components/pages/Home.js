@@ -10,7 +10,7 @@ export default function Home() {
       <div className='full-name-container'>
         <h1 className='fancy fancy-names'>KELSEY PLETZER</h1>        
         <h5 className='fancy fancy-symbols'>&</h5>
-        <h1 className='fancy fancy-names'>JUSTIN WITTIVEEN</h1>
+        <h1 className='fancy fancy-names'>JUSTIN WITTEVEEN</h1>
       </div>
       
       <div className='date-container'>
