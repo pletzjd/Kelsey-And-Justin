@@ -1,10 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-function NavTabs({ currentPage, handlePageChange }) {
+
+
+function NavTabs({ currentPage, handlePageChange, toggleNavBar, isOpen }) {
+
   return (
     <header>
+      <div className="hamburger" onClick={toggleNavBar}>
+				<svg>
+					<path xmlns="http://www.w3.org/2000/svg" d="M4 18L20 18" stroke="#000000" strokeWidth="2" strokeLinecap="round" />
+					<path xmlns="http://www.w3.org/2000/svg" d="M4 12L20 12" stroke="#000000" strokeWidth="2" strokeLinecap="round" />
+					<path xmlns="http://www.w3.org/2000/svg" d="M4 6L20 6" stroke="#000000" strokeWidth="2" strokeLinecap="round" />
+				</svg>
+			</div>
       <h1 className='nav-header fancy fancy-names fancy-names-nav'>KELSEY & JUSTIN</h1>
-      <ul className="nav nav-tabs">
+      <ul className={`nav nav-tab ${isOpen ? 'open' : ''}`}>
         <li className="nav-item">
           <a
             href="#home"

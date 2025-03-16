@@ -37,12 +37,20 @@ export default function Container({imgData}) {
     }
     return <RSVP imgData={imgData}/>;
   };
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    setIsOpen(!isOpen);
+  };
+
+  const toggleNavBar = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div className='container'>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} toggleNavBar={toggleNavBar} isOpen={isOpen} setIsOpen={setIsOpen} />
       {renderPage()}
     </div>
   );
