@@ -252,6 +252,12 @@ a{
 .location-address-link{
     text-decoration: underline;
 }
+/*Timeline*/
+.timeline{
+  max-width: 960px;
+  min-width: 400px;
+  width: 50%;
+}
 /*Gallery*/
 .gallery-content{
     min-height: calc(100vh - 9rem);
@@ -383,7 +389,7 @@ note: switch to mobile view at below 700px*/
     cursor: pointer;
     position: fixed;
     top: 20px;
-    right: 20px;
+    left: 20px;
     z-index: 1001;
     height: 37px;
     width: 37px;
