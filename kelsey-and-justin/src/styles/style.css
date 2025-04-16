@@ -254,9 +254,17 @@ a{
 }
 /*Timeline*/
 .timeline{
+  min-width: 400px;
+}
+.timelineWrapper{
+  background:#ffffff;
   max-width: 960px;
   min-width: 400px;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 /*Gallery*/
 .gallery-content{
@@ -354,7 +362,7 @@ note: switch to mobile view at below 700px*/
   .fancy-symbols{
     font-size: 1.5rem;
   }
-  .card, .rsvp-image, .opener{
+  .card, .rsvp-image, .opener, .timelineWrapper{
     width: 90%;
     min-width: 310px;
   }
